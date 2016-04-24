@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B8755F1CBD231B006A22D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8755E1CBD231B006A22D4 /* AppDelegate.swift */; };
+		F5B875611CBD231B006A22D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875601CBD231B006A22D4 /* ViewController.swift */; };
+		F5B875641CBD231B006A22D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B875621CBD231B006A22D4 /* Main.storyboard */; };
+		F5B875661CBD231B006A22D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B875651CBD231B006A22D4 /* Assets.xcassets */; };
+		F5B875691CBD231B006A22D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B875671CBD231B006A22D4 /* LaunchScreen.storyboard */; };
+		F5B875741CBD231B006A22D4 /* PhotonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875731CBD231B006A22D4 /* PhotonAppTests.swift */; };
+		F5B8757F1CBD231B006A22D4 /* PhotonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8757E1CBD231B006A22D4 /* PhotonAppUITests.swift */; };
+		F5B875A01CBD4677006A22D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8758E1CBD4676006A22D4 /* Constants.swift */; };
+		F5B875A11CBD4677006A22D4 /* DebugLog.all.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8758F1CBD4676006A22D4 /* DebugLog.all.swift */; };
+		F5B875A31CBD4677006A22D4 /* NSDate+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875921CBD4676006A22D4 /* NSDate+Helpers.swift */; };
+		F5B875A41CBD4677006A22D4 /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875931CBD4676006A22D4 /* NSDictionaryExtensions.swift */; };
+		F5B875A51CBD4677006A22D4 /* NSString+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875941CBD4676006A22D4 /* NSString+Helpers.swift */; };
+		F5B875A61CBD4677006A22D4 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875951CBD4676006A22D4 /* NSURLExtensions.swift */; };
+		F5B875A71CBD4677006A22D4 /* UIBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875961CBD4676006A22D4 /* UIBarExtension.swift */; };
+		F5B875A81CBD4677006A22D4 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875971CBD4676006A22D4 /* UIColorExtensions.swift */; };
+		F5B875A91CBD4677006A22D4 /* UIFontExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875981CBD4676006A22D4 /* UIFontExtenstion.swift */; };
+		F5B875AA1CBD4677006A22D4 /* UIViewControllerExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875991CBD4676006A22D4 /* UIViewControllerExtentsion.swift */; };
+		F5B875AB1CBD4677006A22D4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8759A1CBD4677006A22D4 /* UIViewExtensions.swift */; };
+		F5B875AC1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8759B1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift */; };
+		F5B875AD1CBD4677006A22D4 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8759C1CBD4677006A22D4 /* PopAnimator.swift */; };
+		F5B875AE1CBD4677006A22D4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8759D1CBD4677006A22D4 /* Utilities.swift */; };
+		F5B875AF1CBD4677006A22D4 /* ZoomEffectSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8759E1CBD4677006A22D4 /* ZoomEffectSegue.swift */; };
+		F9FCAD9A1A73AE7B1EA55A36 /* Pods_PhotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D8C595676044B2D629187 /* Pods_PhotonApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B875701CBD231B006A22D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B875531CBD231B006A22D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B8755A1CBD231B006A22D4;
+			remoteInfo = PhotonApp;
+		};
+		F5B8757B1CBD231B006A22D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B875531CBD231B006A22D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B8755A1CBD231B006A22D4;
+			remoteInfo = PhotonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0D8C595676044B2D629187 /* Pods_PhotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B8755B1CBD231B006A22D4 /* PhotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B8755E1CBD231B006A22D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5B875601CBD231B006A22D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B875631CBD231B006A22D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B875651CBD231B006A22D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B875681CBD231B006A22D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B8756A1CBD231B006A22D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B8756F1CBD231B006A22D4 /* PhotonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B875731CBD231B006A22D4 /* PhotonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonAppTests.swift; sourceTree = "<group>"; };
+		F5B875751CBD231B006A22D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B8757A1CBD231B006A22D4 /* PhotonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B8757E1CBD231B006A22D4 /* PhotonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonAppUITests.swift; sourceTree = "<group>"; };
+		F5B875801CBD231B006A22D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B8758E1CBD4676006A22D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F5B8758F1CBD4676006A22D4 /* DebugLog.all.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugLog.all.swift; sourceTree = "<group>"; };
+		F5B875921CBD4676006A22D4 /* NSDate+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Helpers.swift"; sourceTree = "<group>"; };
+		F5B875931CBD4676006A22D4 /* NSDictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionaryExtensions.swift; sourceTree = "<group>"; };
+		F5B875941CBD4676006A22D4 /* NSString+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Helpers.swift"; sourceTree = "<group>"; };
+		F5B875951CBD4676006A22D4 /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
+		F5B875961CBD4676006A22D4 /* UIBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarExtension.swift; sourceTree = "<group>"; };
+		F5B875971CBD4676006A22D4 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		F5B875981CBD4676006A22D4 /* UIFontExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtenstion.swift; sourceTree = "<group>"; };
+		F5B875991CBD4676006A22D4 /* UIViewControllerExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtentsion.swift; sourceTree = "<group>"; };
+		F5B8759A1CBD4677006A22D4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		F5B8759B1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPositioningExtentsion.swift; sourceTree = "<group>"; };
+		F5B8759C1CBD4677006A22D4 /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		F5B8759D1CBD4677006A22D4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F5B8759E1CBD4677006A22D4 /* ZoomEffectSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomEffectSegue.swift; sourceTree = "<group>"; };
+		F5B92C7A1CBE8ACD007257F9 /* PhotonApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotonApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD507A86FC0FC08E1ADC0254 /* Pods-PhotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotonApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotonApp/Pods-PhotonApp.release.xcconfig"; sourceTree = "<group>"; };
+		FE29365F48F1B80E2DFAE68A /* Pods-PhotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotonApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotonApp/Pods-PhotonApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B875581CBD231B006A22D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FCAD9A1A73AE7B1EA55A36 /* Pods_PhotonApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8756C1CBD231B006A22D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B875771CBD231B006A22D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C72B420F8CAFFB9C48D452AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D8C595676044B2D629187 /* Pods_PhotonApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBC1F6C18FD53B83C2FA43CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE29365F48F1B80E2DFAE68A /* Pods-PhotonApp.debug.xcconfig */,
+				FD507A86FC0FC08E1ADC0254 /* Pods-PhotonApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5B875521CBD231B006A22D4 = {
+			isa = PBXGroup;
+			children = (
+				F5B8755D1CBD231B006A22D4 /* PhotonApp */,
+				F5B875721CBD231B006A22D4 /* PhotonAppTests */,
+				F5B8757D1CBD231B006A22D4 /* PhotonAppUITests */,
+				F5B8755C1CBD231B006A22D4 /* Products */,
+				EBC1F6C18FD53B83C2FA43CF /* Pods */,
+				C72B420F8CAFFB9C48D452AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B8755C1CBD231B006A22D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8755B1CBD231B006A22D4 /* PhotonApp.app */,
+				F5B8756F1CBD231B006A22D4 /* PhotonAppTests.xctest */,
+				F5B8757A1CBD231B006A22D4 /* PhotonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B8755D1CBD231B006A22D4 /* PhotonApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5B92C791CBE8AAF007257F9 /* Externals */,
+				F5B875B11CBD46A5006A22D4 /* Controllers */,
+				F5B875B21CBD46A5006A22D4 /* Views */,
+				F5B875B01CBD468A006A22D4 /* Models */,
+				F5B8758C1CBD4676006A22D4 /* Common */,
+				F5B8755E1CBD231B006A22D4 /* AppDelegate.swift */,
+				F5B875601CBD231B006A22D4 /* ViewController.swift */,
+				F5B875621CBD231B006A22D4 /* Main.storyboard */,
+				F5B875651CBD231B006A22D4 /* Assets.xcassets */,
+				F5B875671CBD231B006A22D4 /* LaunchScreen.storyboard */,
+				F5B8756A1CBD231B006A22D4 /* Info.plist */,
+			);
+			path = PhotonApp;
+			sourceTree = "<group>";
+		};
+		F5B875721CBD231B006A22D4 /* PhotonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B875731CBD231B006A22D4 /* PhotonAppTests.swift */,
+				F5B875751CBD231B006A22D4 /* Info.plist */,
+			);
+			path = PhotonAppTests;
+			sourceTree = "<group>";
+		};
+		F5B8757D1CBD231B006A22D4 /* PhotonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8757E1CBD231B006A22D4 /* PhotonAppUITests.swift */,
+				F5B875801CBD231B006A22D4 /* Info.plist */,
+			);
+			path = PhotonAppUITests;
+			sourceTree = "<group>";
+		};
+		F5B8758C1CBD4676006A22D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8758E1CBD4676006A22D4 /* Constants.swift */,
+				F5B8758F1CBD4676006A22D4 /* DebugLog.all.swift */,
+				F5B875911CBD4676006A22D4 /* Extensions */,
+				F5B8759C1CBD4677006A22D4 /* PopAnimator.swift */,
+				F5B8759D1CBD4677006A22D4 /* Utilities.swift */,
+				F5B8759E1CBD4677006A22D4 /* ZoomEffectSegue.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F5B875911CBD4676006A22D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F5B875921CBD4676006A22D4 /* NSDate+Helpers.swift */,
+				F5B875931CBD4676006A22D4 /* NSDictionaryExtensions.swift */,
+				F5B875941CBD4676006A22D4 /* NSString+Helpers.swift */,
+				F5B875951CBD4676006A22D4 /* NSURLExtensions.swift */,
+				F5B875961CBD4676006A22D4 /* UIBarExtension.swift */,
+				F5B875971CBD4676006A22D4 /* UIColorExtensions.swift */,
+				F5B875981CBD4676006A22D4 /* UIFontExtenstion.swift */,
+				F5B875991CBD4676006A22D4 /* UIViewControllerExtentsion.swift */,
+				F5B8759A1CBD4677006A22D4 /* UIViewExtensions.swift */,
+				F5B8759B1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F5B875B01CBD468A006A22D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5B875B11CBD46A5006A22D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5B875B21CBD46A5006A22D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5B92C791CBE8AAF007257F9 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				F5B92C7A1CBE8ACD007257F9 /* PhotonApp-Bridging-Header.h */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B8755A1CBD231B006A22D4 /* PhotonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B875831CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonApp" */;
+			buildPhases = (
+				2D815E672659FBEC62935E8F /* Check Pods Manifest.lock */,
+				F5B875571CBD231B006A22D4 /* Sources */,
+				F5B875581CBD231B006A22D4 /* Frameworks */,
+				F5B875591CBD231B006A22D4 /* Resources */,
+				B4941B4F824FB49020F8B4C6 /* Embed Pods Frameworks */,
+				4B96D418939653DFADCBF74C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotonApp;
+			productName = PhotonApp;
+			productReference = F5B8755B1CBD231B006A22D4 /* PhotonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B8756E1CBD231B006A22D4 /* PhotonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B875861CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonAppTests" */;
+			buildPhases = (
+				F5B8756B1CBD231B006A22D4 /* Sources */,
+				F5B8756C1CBD231B006A22D4 /* Frameworks */,
+				F5B8756D1CBD231B006A22D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B875711CBD231B006A22D4 /* PBXTargetDependency */,
+			);
+			name = PhotonAppTests;
+			productName = PhotonAppTests;
+			productReference = F5B8756F1CBD231B006A22D4 /* PhotonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B875791CBD231B006A22D4 /* PhotonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B875891CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonAppUITests" */;
+			buildPhases = (
+				F5B875761CBD231B006A22D4 /* Sources */,
+				F5B875771CBD231B006A22D4 /* Frameworks */,
+				F5B875781CBD231B006A22D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B8757C1CBD231B006A22D4 /* PBXTargetDependency */,
+			);
+			name = PhotonAppUITests;
+			productName = PhotonAppUITests;
+			productReference = F5B8757A1CBD231B006A22D4 /* PhotonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B875531CBD231B006A22D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Photon;
+				TargetAttributes = {
+					F5B8755A1CBD231B006A22D4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F5B8756E1CBD231B006A22D4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F5B8755A1CBD231B006A22D4;
+					};
+					F5B875791CBD231B006A22D4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F5B8755A1CBD231B006A22D4;
+					};
+				};
+			};
+			buildConfigurationList = F5B875561CBD231B006A22D4 /* Build configuration list for PBXProject "PhotonApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B875521CBD231B006A22D4;
+			productRefGroup = F5B8755C1CBD231B006A22D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B8755A1CBD231B006A22D4 /* PhotonApp */,
+				F5B8756E1CBD231B006A22D4 /* PhotonAppTests */,
+				F5B875791CBD231B006A22D4 /* PhotonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B875591CBD231B006A22D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B875691CBD231B006A22D4 /* LaunchScreen.storyboard in Resources */,
+				F5B875661CBD231B006A22D4 /* Assets.xcassets in Resources */,
+				F5B875641CBD231B006A22D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8756D1CBD231B006A22D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B875781CBD231B006A22D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D815E672659FBEC62935E8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B96D418939653DFADCBF74C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotonApp/Pods-PhotonApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4941B4F824FB49020F8B4C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotonApp/Pods-PhotonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B875571CBD231B006A22D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B875AA1CBD4677006A22D4 /* UIViewControllerExtentsion.swift in Sources */,
+				F5B875AB1CBD4677006A22D4 /* UIViewExtensions.swift in Sources */,
+				F5B875A61CBD4677006A22D4 /* NSURLExtensions.swift in Sources */,
+				F5B875A51CBD4677006A22D4 /* NSString+Helpers.swift in Sources */,
+				F5B875611CBD231B006A22D4 /* ViewController.swift in Sources */,
+				F5B875A81CBD4677006A22D4 /* UIColorExtensions.swift in Sources */,
+				F5B875AE1CBD4677006A22D4 /* Utilities.swift in Sources */,
+				F5B8755F1CBD231B006A22D4 /* AppDelegate.swift in Sources */,
+				F5B875A91CBD4677006A22D4 /* UIFontExtenstion.swift in Sources */,
+				F5B875A71CBD4677006A22D4 /* UIBarExtension.swift in Sources */,
+				F5B875A31CBD4677006A22D4 /* NSDate+Helpers.swift in Sources */,
+				F5B875AC1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift in Sources */,
+				F5B875AD1CBD4677006A22D4 /* PopAnimator.swift in Sources */,
+				F5B875A11CBD4677006A22D4 /* DebugLog.all.swift in Sources */,
+				F5B875AF1CBD4677006A22D4 /* ZoomEffectSegue.swift in Sources */,
+				F5B875A01CBD4677006A22D4 /* Constants.swift in Sources */,
+				F5B875A41CBD4677006A22D4 /* NSDictionaryExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8756B1CBD231B006A22D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B875741CBD231B006A22D4 /* PhotonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B875761CBD231B006A22D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8757F1CBD231B006A22D4 /* PhotonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B875711CBD231B006A22D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B8755A1CBD231B006A22D4 /* PhotonApp */;
+			targetProxy = F5B875701CBD231B006A22D4 /* PBXContainerItemProxy */;
+		};
+		F5B8757C1CBD231B006A22D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B8755A1CBD231B006A22D4 /* PhotonApp */;
+			targetProxy = F5B8757B1CBD231B006A22D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B875621CBD231B006A22D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B875631CBD231B006A22D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B875671CBD231B006A22D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B875681CBD231B006A22D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B875811CBD231B006A22D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B875821CBD231B006A22D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B875841CBD231B006A22D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE29365F48F1B80E2DFAE68A /* Pods-PhotonApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PhotonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotonApp/Externals/PhotonApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B875851CBD231B006A22D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD507A86FC0FC08E1ADC0254 /* Pods-PhotonApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PhotonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotonApp/Externals/PhotonApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F5B875871CBD231B006A22D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonApp.app/PhotonApp";
+			};
+			name = Debug;
+		};
+		F5B875881CBD231B006A22D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonApp.app/PhotonApp";
+			};
+			name = Release;
+		};
+		F5B8758A1CBD231B006A22D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotonApp;
+			};
+			name = Debug;
+		};
+		F5B8758B1CBD231B006A22D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.app.PhotonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B875561CBD231B006A22D4 /* Build configuration list for PBXProject "PhotonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B875811CBD231B006A22D4 /* Debug */,
+				F5B875821CBD231B006A22D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B875831CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B875841CBD231B006A22D4 /* Debug */,
+				F5B875851CBD231B006A22D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B875861CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B875871CBD231B006A22D4 /* Debug */,
+				F5B875881CBD231B006A22D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B875891CBD231B006A22D4 /* Build configuration list for PBXNativeTarget "PhotonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B8758A1CBD231B006A22D4 /* Debug */,
+				F5B8758B1CBD231B006A22D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B875531CBD231B006A22D4 /* Project object */;
+}

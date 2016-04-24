@@ -1,0 +1,8 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AFBlurSegue.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/AlamofireImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/CircleProgressView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/DTIToastCenter.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/DropDown.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JKNotificationPanel.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/KMPlaceholderTextView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SwiftyJSON.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/TTTAttributedLabel.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFBlurSegue" -framework "Alamofire" -framework "AlamofireImage" -framework "CircleProgressView" -framework "DTIToastCenter" -framework "DropDown" -framework "JKNotificationPanel" -framework "KMPlaceholderTextView" -framework "SwiftyJSON" -framework "TTTAttributedLabel"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PhotonApp
+PODS_ROOT = ${SRCROOT}/Pods
