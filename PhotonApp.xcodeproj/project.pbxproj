@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F57CC0951CCCC00E000B3614 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0941CCCC00E000B3614 /* SSASideMenu.swift */; };
+		F57CC09C1CCCC0C0000B3614 /* ULBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0971CCCC0C0000B3614 /* ULBaseViewController.swift */; };
+		F57CC09D1CCCC0C0000B3614 /* ULNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0981CCCC0C0000B3614 /* ULNavigationViewController.swift */; };
+		F57CC09E1CCCC0C0000B3614 /* ULSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0991CCCC0C0000B3614 /* ULSideViewController.swift */; };
+		F57CC09F1CCCC0C0000B3614 /* ULTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC09A1CCCC0C0000B3614 /* ULTabBarViewController.swift */; };
+		F57CC0A01CCCC0C0000B3614 /* ULTableBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC09B1CCCC0C0000B3614 /* ULTableBaseController.swift */; };
+		F57CC0A31CCCC17D000B3614 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0A21CCCC17D000B3614 /* Reachability.swift */; };
+		F57CC0A61CCCC23B000B3614 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0A51CCCC23B000B3614 /* LeftViewController.swift */; };
+		F57CC0A91CCCC918000B3614 /* MainBackgroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0A81CCCC918000B3614 /* MainBackgroupView.swift */; };
+		F57CC0AC1CCCD10F000B3614 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0AB1CCCD10F000B3614 /* RegisterController.swift */; };
+		F57CC0AE1CCCE1BB000B3614 /* VerifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CC0AD1CCCE1BB000B3614 /* VerifyController.swift */; };
 		F5B8755F1CBD231B006A22D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8755E1CBD231B006A22D4 /* AppDelegate.swift */; };
 		F5B875611CBD231B006A22D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B875601CBD231B006A22D4 /* ViewController.swift */; };
 		F5B875641CBD231B006A22D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B875621CBD231B006A22D4 /* Main.storyboard */; };
@@ -51,6 +62,17 @@
 
 /* Begin PBXFileReference section */
 		EB0D8C595676044B2D629187 /* Pods_PhotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57CC0941CCCC00E000B3614 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		F57CC0971CCCC0C0000B3614 /* ULBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULBaseViewController.swift; sourceTree = "<group>"; };
+		F57CC0981CCCC0C0000B3614 /* ULNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULNavigationViewController.swift; sourceTree = "<group>"; };
+		F57CC0991CCCC0C0000B3614 /* ULSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULSideViewController.swift; sourceTree = "<group>"; };
+		F57CC09A1CCCC0C0000B3614 /* ULTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULTabBarViewController.swift; sourceTree = "<group>"; };
+		F57CC09B1CCCC0C0000B3614 /* ULTableBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULTableBaseController.swift; sourceTree = "<group>"; };
+		F57CC0A21CCCC17D000B3614 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F57CC0A51CCCC23B000B3614 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		F57CC0A81CCCC918000B3614 /* MainBackgroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBackgroupView.swift; sourceTree = "<group>"; };
+		F57CC0AB1CCCD10F000B3614 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		F57CC0AD1CCCE1BB000B3614 /* VerifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyController.swift; sourceTree = "<group>"; };
 		F5B8755B1CBD231B006A22D4 /* PhotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B8755E1CBD231B006A22D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B875601CBD231B006A22D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +149,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F57CC0931CCCBFEA000B3614 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F57CC0941CCCC00E000B3614 /* SSASideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F57CC0961CCCC0C0000B3614 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F57CC0971CCCC0C0000B3614 /* ULBaseViewController.swift */,
+				F57CC0981CCCC0C0000B3614 /* ULNavigationViewController.swift */,
+				F57CC0991CCCC0C0000B3614 /* ULSideViewController.swift */,
+				F57CC09A1CCCC0C0000B3614 /* ULTabBarViewController.swift */,
+				F57CC09B1CCCC0C0000B3614 /* ULTableBaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F57CC0A11CCCC16B000B3614 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				F57CC0A21CCCC17D000B3614 /* Reachability.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		F57CC0A41CCCC228000B3614 /* LeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F57CC0A51CCCC23B000B3614 /* LeftViewController.swift */,
+			);
+			path = LeftViewController;
+			sourceTree = "<group>";
+		};
+		F57CC0A71CCCC2ED000B3614 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		F57CC0AA1CCCD0EF000B3614 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F57CC0AB1CCCD10F000B3614 /* RegisterController.swift */,
+				F57CC0AD1CCCE1BB000B3614 /* VerifyController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		F5B875521CBD231B006A22D4 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +226,7 @@
 		F5B8755D1CBD231B006A22D4 /* PhotonApp */ = {
 			isa = PBXGroup;
 			children = (
+				F57CC0A11CCCC16B000B3614 /* Networks */,
 				F5B92C791CBE8AAF007257F9 /* Externals */,
 				F5B875B11CBD46A5006A22D4 /* Controllers */,
 				F5B875B21CBD46A5006A22D4 /* Views */,
@@ -225,6 +300,10 @@
 		F5B875B11CBD46A5006A22D4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F57CC0AA1CCCD0EF000B3614 /* Account */,
+				F57CC0A71CCCC2ED000B3614 /* MainViewController */,
+				F57CC0A41CCCC228000B3614 /* LeftViewController */,
+				F57CC0961CCCC0C0000B3614 /* Base */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +311,7 @@
 		F5B875B21CBD46A5006A22D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F57CC0A81CCCC918000B3614 /* MainBackgroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +319,7 @@
 		F5B92C791CBE8AAF007257F9 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				F57CC0931CCCBFEA000B3614 /* SideMenu */,
 				F5B92C7A1CBE8ACD007257F9 /* PhotonApp-Bridging-Header.h */,
 			);
 			path = Externals;
@@ -429,20 +510,31 @@
 				F5B875AA1CBD4677006A22D4 /* UIViewControllerExtentsion.swift in Sources */,
 				F5B875AB1CBD4677006A22D4 /* UIViewExtensions.swift in Sources */,
 				F5B875A61CBD4677006A22D4 /* NSURLExtensions.swift in Sources */,
+				F57CC0951CCCC00E000B3614 /* SSASideMenu.swift in Sources */,
 				F5B875A51CBD4677006A22D4 /* NSString+Helpers.swift in Sources */,
+				F57CC0A01CCCC0C0000B3614 /* ULTableBaseController.swift in Sources */,
+				F57CC0A91CCCC918000B3614 /* MainBackgroupView.swift in Sources */,
 				F5B875611CBD231B006A22D4 /* ViewController.swift in Sources */,
 				F5B875A81CBD4677006A22D4 /* UIColorExtensions.swift in Sources */,
 				F5B875AE1CBD4677006A22D4 /* Utilities.swift in Sources */,
 				F5B8755F1CBD231B006A22D4 /* AppDelegate.swift in Sources */,
 				F5B875A91CBD4677006A22D4 /* UIFontExtenstion.swift in Sources */,
+				F57CC09D1CCCC0C0000B3614 /* ULNavigationViewController.swift in Sources */,
 				F5B875A71CBD4677006A22D4 /* UIBarExtension.swift in Sources */,
+				F57CC0AE1CCCE1BB000B3614 /* VerifyController.swift in Sources */,
 				F5B875A31CBD4677006A22D4 /* NSDate+Helpers.swift in Sources */,
+				F57CC0A31CCCC17D000B3614 /* Reachability.swift in Sources */,
+				F57CC09F1CCCC0C0000B3614 /* ULTabBarViewController.swift in Sources */,
 				F5B875AC1CBD4677006A22D4 /* UIViewPositioningExtentsion.swift in Sources */,
 				F5B875AD1CBD4677006A22D4 /* PopAnimator.swift in Sources */,
+				F57CC0A61CCCC23B000B3614 /* LeftViewController.swift in Sources */,
 				F5B875A11CBD4677006A22D4 /* DebugLog.all.swift in Sources */,
 				F5B875AF1CBD4677006A22D4 /* ZoomEffectSegue.swift in Sources */,
 				F5B875A01CBD4677006A22D4 /* Constants.swift in Sources */,
+				F57CC09C1CCCC0C0000B3614 /* ULBaseViewController.swift in Sources */,
 				F5B875A41CBD4677006A22D4 /* NSDictionaryExtensions.swift in Sources */,
+				F57CC09E1CCCC0C0000B3614 /* ULSideViewController.swift in Sources */,
+				F57CC0AC1CCCD10F000B3614 /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

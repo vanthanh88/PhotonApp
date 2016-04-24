@@ -25,11 +25,20 @@ let REGEX_IDENTITYCARD      = "^[0-9]{6,45}$"
 
 
 
+let PHOTON_BUTTON_COLOR1 = UIColor(hex6: 0xFF2E63)
 
+
+
+public enum StoryBoardSegueIdentifier: String {
+    case LeftViewController             = "LeftViewControllerIdentifier"
+    case RegisterController             = "RegisterControllerIdentifier"
+    case VerifyPhoneNumberController    = "VerifyPhoneNumberControllerIdentifier"
+}
 
 
 public enum StoryBoardID: String {
-    case ViewController = "ViewControllerIdentifier"
+    case LeftViewController         = "LeftViewControllerIdentifier"
+    case MainViewController         = "MainViewControllerIdentifier"
 }
 
 
